@@ -1,4 +1,5 @@
-import google.generativeai as genai
+import google.generativeai as genai  #import the Google Gemini ai SDK for generative AI functionality
+
 
 # Configure the SDK with your Gemini API key
 genai.configure(api_key="YOUR_API_KEY_HERE")
