@@ -1,1 +1,2 @@
-google-generativeai
+https://aistudio.google.com/app/apikey
+
