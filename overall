@@ -1,0 +1,37 @@
+basically followed these steps:
+
+1)System environment setup
+
+  =>  Checked variables and ensured Python + pip are installed.
+
+2)Installed Python IDE
+
+   =>  using VS Code with Jupyter Notebook.
+
+3)Installed Google Generative AI SDK
+   
+     pip install google-generativeai
+
+4)VS Code setup
+
+  => Created a .py file (botgeminiai.py in your case).
+
+  => Installed Python & Jupyter extensions in VS Code.
+
+5)API Key setup
+
+   =>pasted the Gemini API key into your code:
+
+      genai.configure(api_key="your_api_key_here")
+
+6)Chatbot code flow
+
+  =>Takes user input.
+
+  =>Appends it to the conversation history.
+
+  =>Sends request to gemini-1.5-flash model.
+
+  =>Returns the text part of the AI response.
+
+    
