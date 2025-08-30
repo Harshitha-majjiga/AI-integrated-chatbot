@@ -2,7 +2,7 @@ import google.generativeai as genai  #import the Google Gemini ai SDK for genera
 
 
 # Configure the SDK with your Gemini API key
-genai.configure(api_key="YOUR_API_KEY_HERE")
+genai.configure(api_key="AIzaSyD_qxhx2TBzPRDnwML9-Na7ysCjt5AbFwM")
 
 # Function to send user input + chat history to the AI model
 def ask_ai(user_input, chat_history):
@@ -23,7 +23,7 @@ def ask_ai(user_input, chat_history):
 
 # Main program entry point
 if __name__ == "__main__":
-    print("🚀 Education Guidance ChatBot by FIXITY EDX is running! Type 'quit' or 'exit' to stop.")
+    print("🚀 chatbot is ready to help!! Type 'quit' or 'exit' to stop.")
 
     chat_history = []  # Store past conversations
 
